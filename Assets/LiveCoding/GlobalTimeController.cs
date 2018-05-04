@@ -5,7 +5,8 @@ using UnityEngine;
 namespace LiveCoding{
     [AddComponentMenu("LiveCoding/Global Time Controller")]
     public class GlobalTimeController : MonoBehaviour {
-        private float speedRatio = 1.0f;
+        [SerializeField, Range(0.0f, 10.0f)]
+        public float speedRatio = 1.0f;
 
         public float _speedRatio {
             get { return speedRatio; }
