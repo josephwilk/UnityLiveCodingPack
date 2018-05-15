@@ -19,7 +19,7 @@ namespace LiveCoding{
                 cam.enabled = false;
             }
             liveCamera.enabled = true;
-	    }
+        }
 	
         public void CameraChange(int newCamId){
             if (newCamId < cameras.Length && newCamId >= 0) {
