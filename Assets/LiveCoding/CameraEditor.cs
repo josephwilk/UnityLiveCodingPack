@@ -9,7 +9,7 @@ namespace LiveCoding{
         Camera[] cameras;
         Camera liveCamera;
 
-	    void Start () {
+	void Start () {
             cameras = Camera.allCameras;
             liveCamera = Camera.main;
 
